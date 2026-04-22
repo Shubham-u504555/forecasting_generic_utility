@@ -1,0 +1,26 @@
+{
+  "rows": 116,
+  "cols": 13,
+  "row_completeness_threshold": 0.75,
+  "column_missing_threshold": 0.25,
+  "corr_min_abs_threshold": 0.2,
+  "vif_max_threshold": 10.0,
+  "dropped_columns_due_to_missing_value_threshold": [],
+  "num_selected_features": 13,
+  "selected_features": [
+    "Indep_V94",
+    "Indep_V1",
+    "Indep_V108",
+    "Indep_V57",
+    "Indep_V35",
+    "Indep_V2",
+    "Indep_V40",
+    "Indep_V101",
+    "Indep_V119",
+    "Indep_V96",
+    "Indep_V99",
+    "Indep_V39",
+    "Indep_V26"
+  ],
+  "composite_score_min_threshold": 0.25
+}

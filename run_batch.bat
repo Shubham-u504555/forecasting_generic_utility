@@ -1,0 +1,3 @@
+python step_1_feature_selection.py
+python step_2_model_selection.py
+python step_3_future_forecast.py

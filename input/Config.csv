@@ -1,0 +1,2 @@
+﻿Series_Name,Input_File_Name,Target_Column_Name,Date_Column_Name,Frequency,Minimum_Observations,Model_Selection_Period,Forecasting_Period
+Sample Series,Master_Data_Input_File.xlsx,Target,Date,M,60,12,12

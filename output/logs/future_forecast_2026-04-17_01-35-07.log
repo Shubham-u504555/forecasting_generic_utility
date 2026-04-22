@@ -1,0 +1,112 @@
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Logger initialized → output\logs\future_forecast_2026-04-17_01-35-07.log
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Logs directory does not exist: logs
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ ==== Future Forecast Process Started ====
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Args: input=input | data_sheet=Data | config=Config.csv | vars=output\output_feature_selection | models=output\output_model_selection | output_root=output | output=output\output_future_forecast 
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ ================================================================================
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Running Future Forecast for series: Sample Series
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Config → File=Master_Data_Input_File.xlsx | Target=Target | Date=Date | Forecasting_Months=12 | Frequency=M
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Done 1 - Initial data shape including target and all variables: (308, 129)
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Done 2 - Trimmed data shape (trimmed): (116, 129)
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Done 3 - M-frequency continuity & target completeness check passed
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Done 4 - Number of Independent Variables Selected from Step 1 Output : 13
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Done 5 - Number of Independent Variables After Interpolation : 13
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ Future forecast output directory: output\output_future_forecast
+2026-04-17 01:35:07 - INFO - future_forecast - ℹ️ [Sample Series] Loaded independent-variable ensemble weights from output\output_model_selection\Indep_Ensemble_Weights.csv
+2026-04-17 01:35:08 - INFO - future_forecast - ℹ️ Latest dependent-date period available: 2025-08
+2026-04-17 01:35:08 - INFO - future_forecast - ℹ️ Total independent variables for future forecasting: 13
+2026-04-17 01:35:08 - INFO - future_forecast - ℹ️ History window length (periods): 24 | Future horizon (periods): 12
+2026-04-17 01:35:08 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:35:08 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V94
+2026-04-17 01:35:08 - INFO - future_forecast - ℹ️ # First valid index: 2013-01-01 00:00:00
+2026-04-17 01:35:08 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:35:08 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V94: 1 period(s).
+2026-04-17 01:35:08 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V94 to cover gap + horizon.
+2026-04-17 01:35:12 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:35:12 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V1
+2026-04-17 01:35:12 - INFO - future_forecast - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:35:12 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:35:12 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V1: 1 period(s).
+2026-04-17 01:35:12 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V1 to cover gap + horizon.
+2026-04-17 01:35:14 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:35:14 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V108
+2026-04-17 01:35:14 - INFO - future_forecast - ℹ️ # First valid index: 2000-01-01 00:00:00
+2026-04-17 01:35:14 - INFO - future_forecast - ℹ️ # Last valid index: 2025-06-01 00:00:00
+2026-04-17 01:35:14 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V108: 2 period(s).
+2026-04-17 01:35:14 - INFO - future_forecast - ℹ️ Forecasting 14 future period(s) for Indep_V108 to cover gap + horizon.
+2026-04-17 01:35:28 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:35:28 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V57
+2026-04-17 01:35:28 - INFO - future_forecast - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:35:28 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:35:28 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V57: 1 period(s).
+2026-04-17 01:35:28 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V57 to cover gap + horizon.
+2026-04-17 01:35:35 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:35:35 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V35
+2026-04-17 01:35:35 - INFO - future_forecast - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:35:35 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:35:35 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V35: 1 period(s).
+2026-04-17 01:35:35 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V35 to cover gap + horizon.
+2026-04-17 01:35:41 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:35:41 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V2
+2026-04-17 01:35:41 - INFO - future_forecast - ℹ️ # First valid index: 2012-05-01 00:00:00
+2026-04-17 01:35:41 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:35:41 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V2: 1 period(s).
+2026-04-17 01:35:41 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V2 to cover gap + horizon.
+2026-04-17 01:36:06 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:36:06 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V40
+2026-04-17 01:36:06 - INFO - future_forecast - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:36:06 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:36:06 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V40: 1 period(s).
+2026-04-17 01:36:06 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V40 to cover gap + horizon.
+2026-04-17 01:36:13 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:36:13 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V101
+2026-04-17 01:36:13 - INFO - future_forecast - ℹ️ # First valid index: 2008-11-01 00:00:00
+2026-04-17 01:36:13 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:36:13 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V101: 1 period(s).
+2026-04-17 01:36:13 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V101 to cover gap + horizon.
+2026-04-17 01:36:38 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:36:38 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V119
+2026-04-17 01:36:38 - INFO - future_forecast - ℹ️ # First valid index: 2008-11-01 00:00:00
+2026-04-17 01:36:38 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:36:38 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V119: 1 period(s).
+2026-04-17 01:36:38 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V119 to cover gap + horizon.
+2026-04-17 01:36:56 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:36:56 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V96
+2026-04-17 01:36:56 - INFO - future_forecast - ℹ️ # First valid index: 2000-01-01 00:00:00
+2026-04-17 01:36:56 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:36:56 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V96: 1 period(s).
+2026-04-17 01:36:56 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V96 to cover gap + horizon.
+2026-04-17 01:37:00 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:37:00 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V99
+2026-04-17 01:37:00 - INFO - future_forecast - ℹ️ # First valid index: 2006-01-01 00:00:00
+2026-04-17 01:37:00 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:37:00 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V99: 1 period(s).
+2026-04-17 01:37:00 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V99 to cover gap + horizon.
+2026-04-17 01:37:26 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:37:26 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V39
+2026-04-17 01:37:26 - INFO - future_forecast - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:37:26 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:37:26 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V39: 1 period(s).
+2026-04-17 01:37:26 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V39 to cover gap + horizon.
+2026-04-17 01:37:28 - INFO - future_forecast - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:37:28 - INFO - future_forecast - ℹ️ # Independent variable: Indep_V26
+2026-04-17 01:37:28 - INFO - future_forecast - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:37:28 - INFO - future_forecast - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:37:28 - INFO - future_forecast - ℹ️ Gap (dep_latest_period - indep_last_period) for Indep_V26: 1 period(s).
+2026-04-17 01:37:28 - INFO - future_forecast - ℹ️ Forecasting 13 future period(s) for Indep_V26 to cover gap + horizon.
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Independent-variable future forecasts prepared (future-only + history+future window).
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ Independent FUTURE forecasts saved to output\output_future_forecast\Indep_Future_Forecast.csv
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ Independent HISTORICAL + FUTURE window saved to output\output_future_forecast\Indep_Historical_Future_Both.csv
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Using top target models for future forecasting: ['svr', 'lasso']
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Date range: 2016-01-01 to 2025-08-01
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Independent driver columns: ['Indep_V1', 'Indep_V2', 'Indep_V26', 'Indep_V35', 'Indep_V39', 'Indep_V40', 'Indep_V57', 'Indep_V94', 'Indep_V96', 'Indep_V99', 'Indep_V101', 'Indep_V108', 'Indep_V119']
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Retraining selected target models on FULL data & forecasting next 12 periods (Frequency=M)...
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Training LASSO model on full data (log-target)...
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Training SVR model on full data (log-target)...
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Future 12-period forecast Excel saved to output\output_future_forecast\Dep_Future_Forecast.xlsx
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Independent-variable future anomaly report saved to output\output_future_forecast\Indep_Future_Anomaly_Report.csv
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Independent-variable future risk score (0-100): 3.08 (Low)
+2026-04-17 01:37:42 - WARNING - future_forecast - ⚠️ [Sample Series] Independent-variable FUTURE anomalies detected for: Indep_V39, Indep_V94
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ [Sample Series] Future forecast plot saved to output\output_future_forecast\future_plot_next12.png
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ Training logs folder not found, skipping: catboost_info
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ Training logs folder not found, skipping: lightning_logs
+2026-04-17 01:37:42 - INFO - future_forecast - ℹ️ ===== Future Forecast Completed in 155.30 sec (success=1) =====

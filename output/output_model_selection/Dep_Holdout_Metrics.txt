@@ -1,0 +1,34 @@
+[Sample Series] Holdout Validation (12 M-periods per fold, 2 fold(s))
+------------------------------------------------------------
+Models using independent variables (multivariate):
+  [EXOG]        svr -> MEAN over 2 fold(s): MAE: 3.2679, RMSE: 4.0107, MAPE: 0.0418 (4.18%), DA: 0.7083, WBA: 0.9167, FQS: 0.8754
+  [EXOG]      lasso -> MEAN over 2 fold(s): MAE: 4.6962, RMSE: 6.1723, MAPE: 0.0609 (6.09%), DA: 0.5833, WBA: 0.7917, FQS: 0.7773
+  [EXOG] elasticnet -> MEAN over 2 fold(s): MAE: 5.1287, RMSE: 6.4085, MAPE: 0.0664 (6.64%), DA: 0.6250, WBA: 0.7500, FQS: 0.7657
+  [EXOG]     sysgmm -> MEAN over 2 fold(s): MAE: 6.1727, RMSE: 7.4906, MAPE: 0.0798 (7.98%), DA: 0.6250, WBA: 0.6250, FQS: 0.7003
+  [EXOG]      ccemg -> MEAN over 2 fold(s): MAE: 6.1727, RMSE: 7.4906, MAPE: 0.0798 (7.98%), DA: 0.6250, WBA: 0.6250, FQS: 0.7003
+  [EXOG]     dccemg -> MEAN over 2 fold(s): MAE: 6.5717, RMSE: 7.9689, MAPE: 0.0859 (8.59%), DA: 0.5833, WBA: 0.5833, FQS: 0.6677
+  [EXOG]    xgboost -> MEAN over 2 fold(s): MAE: 7.8115, RMSE: 8.7946, MAPE: 0.1040 (10.40%), DA: 0.5417, WBA: 0.5000, FQS: 0.6119
+  [EXOG]   catboost -> MEAN over 2 fold(s): MAE: 7.4725, RMSE: 8.4820, MAPE: 0.0996 (9.96%), DA: 0.4167, WBA: 0.5417, FQS: 0.6024
+  [EXOG]       lgbm -> MEAN over 2 fold(s): MAE: 8.7361, RMSE: 10.1644, MAPE: 0.1160 (11.60%), DA: 0.5000, WBA: 0.4583, FQS: 0.5782
+  [EXOG]    sarimax -> MEAN over 2 fold(s): MAE: 8.8763, RMSE: 9.4837, MAPE: 0.1187 (11.87%), DA: 0.5000, WBA: 0.4167, FQS: 0.5568
+  [EXOG]         rf -> MEAN over 2 fold(s): MAE: 11.7634, RMSE: 12.7515, MAPE: 0.1590 (15.90%), DA: 0.5000, WBA: 0.3333, FQS: 0.5074
+  [EXOG]       twfe -> MEAN over 2 fold(s): MAE: 30.2130, RMSE: 34.9803, MAPE: 0.3885 (38.85%), DA: 0.5000, WBA: 0.2917, FQS: 0.4509
+  [EXOG]        amg -> MEAN over 2 fold(s): MAE: 19.4699, RMSE: 20.8640, MAPE: 0.2394 (23.94%), DA: 0.5000, WBA: 0.2083, FQS: 0.4309
+  [EXOG]         mg -> MEAN over 2 fold(s): MAE: 22.4874, RMSE: 23.4486, MAPE: 0.2757 (27.57%), DA: 0.5417, WBA: 0.1667, FQS: 0.4147
+  [EXOG]        ann -> MEAN over 2 fold(s): MAE: 111.8969, RMSE: 121.3511, MAPE: 1.5281 (152.81%), DA: 0.3750, WBA: 0.0000, FQS: 0.1926
+
+Univariate models (target-only, no independent variables used):
+  [UNI ]      theta -> MEAN over 2 fold(s): MAE: 7.7056, RMSE: 8.4872, MAPE: 0.1032 (10.32%), DA: 0.5417, WBA: 0.6250, FQS: 0.6745
+  [UNI ]        tft -> MEAN over 2 fold(s): MAE: 6.9166, RMSE: 7.6891, MAPE: 0.0932 (9.32%), DA: 0.5000, WBA: 0.5833, FQS: 0.6453
+  [UNI ]       lstm -> MEAN over 2 fold(s): MAE: 7.4274, RMSE: 8.0865, MAPE: 0.0996 (9.96%), DA: 0.4583, WBA: 0.5833, FQS: 0.6336
+  [UNI ]     nbeats -> MEAN over 2 fold(s): MAE: 17.0122, RMSE: 20.1004, MAPE: 0.2102 (21.02%), DA: 0.6250, WBA: 0.3333, FQS: 0.5295
+  [UNI ] holtwinters -> MEAN over 2 fold(s): MAE: 11.7104, RMSE: 13.1566, MAPE: 0.1554 (15.54%), DA: 0.5000, WBA: 0.3333, FQS: 0.5080
+  [UNI ]      nhits -> MEAN over 2 fold(s): MAE: 15.0752, RMSE: 16.8289, MAPE: 0.1888 (18.88%), DA: 0.3750, WBA: 0.3750, FQS: 0.4915
+  [UNI ]    prophet -> MEAN over 2 fold(s): MAE: 28.8014, RMSE: 31.2868, MAPE: 0.3768 (37.68%), DA: 0.4167, WBA: 0.0833, FQS: 0.3274
+
+Ensemble (top-2: svr, lasso) -> Latest-fold MAE: 3.6871, RMSE: 4.7254, MAPE: 0.0525 (5.25%)
+
+Naive last-value (latest fold) MAPE : 0.1111  (or 11.11%)
+Naive seasonal (t-12, latest fold) MAPE : 0.1689  (or 16.89%)
+
+Holdout Mean Target (price, latest fold): 72.4342

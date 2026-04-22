@@ -1,0 +1,200 @@
+2026-04-17 01:09:15 - INFO - model_selection - ℹ️ Logger initialized → output\logs\model_selection_2026-04-17_01-09-15.log
+2026-04-17 01:09:15 - INFO - model_selection - ℹ️ Logs directory does not exist: logs
+2026-04-17 01:09:15 - INFO - model_selection - ℹ️ ==== Model Selection Process Started ====
+2026-04-17 01:09:15 - INFO - model_selection - ℹ️ Args: input=input | data_sheet=Data | config=Config.csv | vars=output\output_feature_selection | output_root=output | output=output\output_model_selection
+2026-04-17 01:09:15 - INFO - model_selection - ℹ️ ================================================================================
+2026-04-17 01:09:15 - INFO - model_selection - ℹ️ Running Model Selection for series: Sample Series
+2026-04-17 01:09:15 - INFO - model_selection - ℹ️ Config → File=Master_Data_Input_File.xlsx | Target=Target | Date=Date | Model_Selection_Period=12 | Frequency=M
+2026-04-17 01:09:16 - INFO - model_selection - ℹ️ Done 1 - Initial data shape including target and all variables: (308, 129)
+2026-04-17 01:09:16 - INFO - model_selection - ℹ️ Done 2 - Trimmed data shape (trimmed): (116, 129)
+2026-04-17 01:09:16 - INFO - model_selection - ℹ️ Done 3 - M-frequency continuity & target completeness check passed
+2026-04-17 01:09:16 - INFO - model_selection - ℹ️ Done 4 - Number of Independent Variables Selected from Step 1 Output : 13
+2026-04-17 01:09:16 - INFO - model_selection - ℹ️ Done 5 - Number of Independent Variables After Interpolation : 13
+2026-04-17 01:09:16 - INFO - model_selection - ℹ️ Model Selection Output directory: output\output_model_selection (freq=M)
+2026-04-17 01:09:17 - INFO - model_selection - ℹ️ Total variables for backtesting: 13
+2026-04-17 01:09:17 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:09:17 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V94
+2026-04-17 01:09:17 - INFO - model_selection - ℹ️ # First valid index: 2013-01-01 00:00:00
+2026-04-17 01:09:17 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:09:17 - INFO - model_selection - ℹ️ # Total observations (periods): 151
+2026-04-17 01:09:17 - INFO - model_selection - ℹ️ [Indep_V94] Fold 1/2
+2026-04-17 01:09:17 - INFO - model_selection - ℹ️ [Indep_V94] Train period:   2013-01-01 -> 2023-07-01
+2026-04-17 01:09:17 - INFO - model_selection - ℹ️ [Indep_V94] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:09:21 - INFO - model_selection - ℹ️ [Indep_V94] Fold 2/2
+2026-04-17 01:09:21 - INFO - model_selection - ℹ️ [Indep_V94] Train period:   2013-01-01 -> 2024-07-01
+2026-04-17 01:09:21 - INFO - model_selection - ℹ️ [Indep_V94] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:09:27 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:09:27 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V1
+2026-04-17 01:09:27 - INFO - model_selection - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:09:27 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:09:27 - INFO - model_selection - ℹ️ # Total observations (periods): 114
+2026-04-17 01:09:27 - INFO - model_selection - ℹ️ [Indep_V1] Fold 1/2
+2026-04-17 01:09:27 - INFO - model_selection - ℹ️ [Indep_V1] Train period:   2016-02-01 -> 2023-07-01
+2026-04-17 01:09:27 - INFO - model_selection - ℹ️ [Indep_V1] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:09:31 - INFO - model_selection - ℹ️ [Indep_V1] Fold 2/2
+2026-04-17 01:09:31 - INFO - model_selection - ℹ️ [Indep_V1] Train period:   2016-02-01 -> 2024-07-01
+2026-04-17 01:09:31 - INFO - model_selection - ℹ️ [Indep_V1] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:09:34 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:09:34 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V108
+2026-04-17 01:09:34 - INFO - model_selection - ℹ️ # First valid index: 2000-01-01 00:00:00
+2026-04-17 01:09:34 - INFO - model_selection - ℹ️ # Last valid index: 2025-06-01 00:00:00
+2026-04-17 01:09:34 - INFO - model_selection - ℹ️ # Total observations (periods): 306
+2026-04-17 01:09:34 - INFO - model_selection - ℹ️ [Indep_V108] Fold 1/2
+2026-04-17 01:09:34 - INFO - model_selection - ℹ️ [Indep_V108] Train period:   2000-01-01 -> 2023-06-01
+2026-04-17 01:09:34 - INFO - model_selection - ℹ️ [Indep_V108] Holdout period: 2023-07-01 -> 2024-06-01
+2026-04-17 01:09:46 - INFO - model_selection - ℹ️ [Indep_V108] Fold 2/2
+2026-04-17 01:09:46 - INFO - model_selection - ℹ️ [Indep_V108] Train period:   2000-01-01 -> 2024-06-01
+2026-04-17 01:09:46 - INFO - model_selection - ℹ️ [Indep_V108] Holdout period: 2024-07-01 -> 2025-06-01
+2026-04-17 01:09:52 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:09:52 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V57
+2026-04-17 01:09:52 - INFO - model_selection - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:09:52 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:09:52 - INFO - model_selection - ℹ️ # Total observations (periods): 114
+2026-04-17 01:09:52 - INFO - model_selection - ℹ️ [Indep_V57] Fold 1/2
+2026-04-17 01:09:52 - INFO - model_selection - ℹ️ [Indep_V57] Train period:   2016-02-01 -> 2023-07-01
+2026-04-17 01:09:52 - INFO - model_selection - ℹ️ [Indep_V57] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:09:54 - INFO - model_selection - ℹ️ [Indep_V57] Fold 2/2
+2026-04-17 01:09:54 - INFO - model_selection - ℹ️ [Indep_V57] Train period:   2016-02-01 -> 2024-07-01
+2026-04-17 01:09:54 - INFO - model_selection - ℹ️ [Indep_V57] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:09:56 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:09:56 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V35
+2026-04-17 01:09:56 - INFO - model_selection - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:09:56 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:09:56 - INFO - model_selection - ℹ️ # Total observations (periods): 114
+2026-04-17 01:09:56 - INFO - model_selection - ℹ️ [Indep_V35] Fold 1/2
+2026-04-17 01:09:56 - INFO - model_selection - ℹ️ [Indep_V35] Train period:   2016-02-01 -> 2023-07-01
+2026-04-17 01:09:56 - INFO - model_selection - ℹ️ [Indep_V35] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:10:01 - INFO - model_selection - ℹ️ [Indep_V35] Fold 2/2
+2026-04-17 01:10:01 - INFO - model_selection - ℹ️ [Indep_V35] Train period:   2016-02-01 -> 2024-07-01
+2026-04-17 01:10:01 - INFO - model_selection - ℹ️ [Indep_V35] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:10:06 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:10:06 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V2
+2026-04-17 01:10:06 - INFO - model_selection - ℹ️ # First valid index: 2012-05-01 00:00:00
+2026-04-17 01:10:06 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:10:06 - INFO - model_selection - ℹ️ # Total observations (periods): 159
+2026-04-17 01:10:06 - INFO - model_selection - ℹ️ [Indep_V2] Fold 1/2
+2026-04-17 01:10:06 - INFO - model_selection - ℹ️ [Indep_V2] Train period:   2012-05-01 -> 2023-07-01
+2026-04-17 01:10:06 - INFO - model_selection - ℹ️ [Indep_V2] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:10:20 - INFO - model_selection - ℹ️ [Indep_V2] Fold 2/2
+2026-04-17 01:10:20 - INFO - model_selection - ℹ️ [Indep_V2] Train period:   2012-05-01 -> 2024-07-01
+2026-04-17 01:10:20 - INFO - model_selection - ℹ️ [Indep_V2] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:10:37 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:10:37 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V40
+2026-04-17 01:10:37 - INFO - model_selection - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:10:37 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:10:37 - INFO - model_selection - ℹ️ # Total observations (periods): 114
+2026-04-17 01:10:37 - INFO - model_selection - ℹ️ [Indep_V40] Fold 1/2
+2026-04-17 01:10:37 - INFO - model_selection - ℹ️ [Indep_V40] Train period:   2016-02-01 -> 2023-07-01
+2026-04-17 01:10:37 - INFO - model_selection - ℹ️ [Indep_V40] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:10:44 - INFO - model_selection - ℹ️ [Indep_V40] Fold 2/2
+2026-04-17 01:10:44 - INFO - model_selection - ℹ️ [Indep_V40] Train period:   2016-02-01 -> 2024-07-01
+2026-04-17 01:10:44 - INFO - model_selection - ℹ️ [Indep_V40] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:10:54 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:10:54 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V101
+2026-04-17 01:10:54 - INFO - model_selection - ℹ️ # First valid index: 2008-11-01 00:00:00
+2026-04-17 01:10:54 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:10:54 - INFO - model_selection - ℹ️ # Total observations (periods): 201
+2026-04-17 01:10:54 - INFO - model_selection - ℹ️ [Indep_V101] Fold 1/2
+2026-04-17 01:10:54 - INFO - model_selection - ℹ️ [Indep_V101] Train period:   2008-11-01 -> 2023-07-01
+2026-04-17 01:10:54 - INFO - model_selection - ℹ️ [Indep_V101] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:11:05 - INFO - model_selection - ℹ️ [Indep_V101] Fold 2/2
+2026-04-17 01:11:05 - INFO - model_selection - ℹ️ [Indep_V101] Train period:   2008-11-01 -> 2024-07-01
+2026-04-17 01:11:05 - INFO - model_selection - ℹ️ [Indep_V101] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:11:17 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:11:17 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V119
+2026-04-17 01:11:17 - INFO - model_selection - ℹ️ # First valid index: 2008-11-01 00:00:00
+2026-04-17 01:11:17 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:11:17 - INFO - model_selection - ℹ️ # Total observations (periods): 201
+2026-04-17 01:11:17 - INFO - model_selection - ℹ️ [Indep_V119] Fold 1/2
+2026-04-17 01:11:17 - INFO - model_selection - ℹ️ [Indep_V119] Train period:   2008-11-01 -> 2023-07-01
+2026-04-17 01:11:17 - INFO - model_selection - ℹ️ [Indep_V119] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:11:30 - INFO - model_selection - ℹ️ [Indep_V119] Fold 2/2
+2026-04-17 01:11:30 - INFO - model_selection - ℹ️ [Indep_V119] Train period:   2008-11-01 -> 2024-07-01
+2026-04-17 01:11:30 - INFO - model_selection - ℹ️ [Indep_V119] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:11:45 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:11:45 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V96
+2026-04-17 01:11:45 - INFO - model_selection - ℹ️ # First valid index: 2000-01-01 00:00:00
+2026-04-17 01:11:45 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:11:45 - INFO - model_selection - ℹ️ # Total observations (periods): 307
+2026-04-17 01:11:45 - INFO - model_selection - ℹ️ [Indep_V96] Fold 1/2
+2026-04-17 01:11:45 - INFO - model_selection - ℹ️ [Indep_V96] Train period:   2000-01-01 -> 2023-07-01
+2026-04-17 01:11:45 - INFO - model_selection - ℹ️ [Indep_V96] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:11:48 - INFO - model_selection - ℹ️ [Indep_V96] Fold 2/2
+2026-04-17 01:11:48 - INFO - model_selection - ℹ️ [Indep_V96] Train period:   2000-01-01 -> 2024-07-01
+2026-04-17 01:11:48 - INFO - model_selection - ℹ️ [Indep_V96] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:11:51 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:11:51 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V99
+2026-04-17 01:11:51 - INFO - model_selection - ℹ️ # First valid index: 2006-01-01 00:00:00
+2026-04-17 01:11:51 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:11:51 - INFO - model_selection - ℹ️ # Total observations (periods): 235
+2026-04-17 01:11:51 - INFO - model_selection - ℹ️ [Indep_V99] Fold 1/2
+2026-04-17 01:11:51 - INFO - model_selection - ℹ️ [Indep_V99] Train period:   2006-01-01 -> 2023-07-01
+2026-04-17 01:11:51 - INFO - model_selection - ℹ️ [Indep_V99] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:12:12 - INFO - model_selection - ℹ️ [Indep_V99] Fold 2/2
+2026-04-17 01:12:12 - INFO - model_selection - ℹ️ [Indep_V99] Train period:   2006-01-01 -> 2024-07-01
+2026-04-17 01:12:12 - INFO - model_selection - ℹ️ [Indep_V99] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:12:34 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:12:34 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V39
+2026-04-17 01:12:34 - INFO - model_selection - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:12:34 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:12:34 - INFO - model_selection - ℹ️ # Total observations (periods): 114
+2026-04-17 01:12:34 - INFO - model_selection - ℹ️ [Indep_V39] Fold 1/2
+2026-04-17 01:12:34 - INFO - model_selection - ℹ️ [Indep_V39] Train period:   2016-02-01 -> 2023-07-01
+2026-04-17 01:12:34 - INFO - model_selection - ℹ️ [Indep_V39] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:12:35 - INFO - model_selection - ℹ️ [Indep_V39] Fold 2/2
+2026-04-17 01:12:35 - INFO - model_selection - ℹ️ [Indep_V39] Train period:   2016-02-01 -> 2024-07-01
+2026-04-17 01:12:35 - INFO - model_selection - ℹ️ [Indep_V39] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:12:36 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:12:36 - INFO - model_selection - ℹ️ # Independent Variable: Indep_V26
+2026-04-17 01:12:36 - INFO - model_selection - ℹ️ # First valid index: 2016-02-01 00:00:00
+2026-04-17 01:12:36 - INFO - model_selection - ℹ️ # Last valid index: 2025-07-01 00:00:00
+2026-04-17 01:12:36 - INFO - model_selection - ℹ️ # Total observations (periods): 114
+2026-04-17 01:12:36 - INFO - model_selection - ℹ️ [Indep_V26] Fold 1/2
+2026-04-17 01:12:36 - INFO - model_selection - ℹ️ [Indep_V26] Train period:   2016-02-01 -> 2023-07-01
+2026-04-17 01:12:36 - INFO - model_selection - ℹ️ [Indep_V26] Holdout period: 2023-08-01 -> 2024-07-01
+2026-04-17 01:12:40 - INFO - model_selection - ℹ️ [Indep_V26] Fold 2/2
+2026-04-17 01:12:40 - INFO - model_selection - ℹ️ [Indep_V26] Train period:   2016-02-01 -> 2024-07-01
+2026-04-17 01:12:40 - INFO - model_selection - ℹ️ [Indep_V26] Holdout period: 2024-08-01 -> 2025-07-01
+2026-04-17 01:12:44 - INFO - model_selection - ℹ️ [Sample Series] Exogenous ensemble weights saved to output\output_model_selection\Indep_Ensemble_Weights.csv
+2026-04-17 01:12:44 - INFO - model_selection - ℹ️ [Sample Series] Date range: 2016-01-01 to 2025-08-01
+2026-04-17 01:12:44 - INFO - model_selection - ℹ️ [Sample Series] Exogenous columns: ['Indep_V1', 'Indep_V2', 'Indep_V26', 'Indep_V35', 'Indep_V39', 'Indep_V40', 'Indep_V57', 'Indep_V94', 'Indep_V96', 'Indep_V99', 'Indep_V101', 'Indep_V108', 'Indep_V119']
+2026-04-17 01:12:44 - INFO - model_selection - ℹ️ [Sample Series] Enabled target models → Multivariate: LGBM=True, ElasticNet=True, CatBoost=True, XGBoost=True, SARIMAX=True, LASSO=True, RF=True, ANN=True, SVR=True | Econometric: TWFE=True, sysGMM=True, MG=True, AMG=True, CCEMG=True, DCCEMG=True | Univariate-Stat: HoltWinters=True, Theta=True | Univariate-Neural: NHITS=True, NBEATS=True, TFT=True, LSTM=True | Univariate-StatExtended: Prophet=True
+2026-04-17 01:12:44 - INFO - model_selection - ℹ️ [Sample Series] Using 2 rolling holdout window(s), each of length 12 M-periods.
+2026-04-17 01:12:44 - INFO - model_selection - ℹ️ --------------------------------------------------------------------------------
+2026-04-17 01:12:44 - INFO - model_selection - ℹ️ [Sample Series] Fold 1/2
+2026-04-17 01:12:44 - INFO - model_selection - ℹ️ [Sample Series] Train period:   2016-01-01 -> 2023-08-01
+2026-04-17 01:12:44 - INFO - model_selection - ℹ️ [Sample Series] Holdout period: 2023-09-01 -> 2024-08-01
+2026-04-17 01:12:44 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V1
+2026-04-17 01:12:50 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V2
+2026-04-17 01:13:00 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V26
+2026-04-17 01:13:04 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V35
+2026-04-17 01:13:15 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V39
+2026-04-17 01:13:16 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V40
+2026-04-17 01:13:26 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V57
+2026-04-17 01:13:28 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V94
+2026-04-17 01:13:34 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V96
+2026-04-17 01:13:44 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V99
+2026-04-17 01:13:50 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V101
+2026-04-17 01:13:54 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V108
+2026-04-17 01:13:57 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Forecasting holdout for independent variable: Indep_V119
+2026-04-17 01:14:06 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Exogenous holdout forecasts prepared.
+2026-04-17 01:14:06 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Target training samples: 80, features: 33
+2026-04-17 01:14:06 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Training LGBM model (log-target)...
+2026-04-17 01:14:07 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] LGBM HOLDOUT -> MAE: 8.2904, RMSE: 9.7010, MAPE: 0.1010 (10.10%)
+2026-04-17 01:14:07 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Training ElasticNet model (log-target)...
+2026-04-17 01:14:07 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] ElasticNet HOLDOUT -> MAE: 5.3150, RMSE: 6.5689, MAPE: 0.0617 (6.17%)
+2026-04-17 01:14:07 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Training CatBoostRegressor (log-target)...
+2026-04-17 01:14:08 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] CatBoost HOLDOUT -> MAE: 4.4462, RMSE: 5.6802, MAPE: 0.0508 (5.08%)
+2026-04-17 01:14:08 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Training XGBRegressor (log-target)...
+2026-04-17 01:14:08 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] XGBoost HOLDOUT -> MAE: 6.1750, RMSE: 7.3307, MAPE: 0.0743 (7.43%)
+2026-04-17 01:14:08 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Training SARIMAX model (log-target, with independent variables)...
+2026-04-17 01:14:12 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] SARIMAX HOLDOUT -> MAE: 6.2323, RMSE: 6.7586, MAPE: 0.0749 (7.49%)
+2026-04-17 01:14:12 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Training Holt-Winters (ExponentialSmoothing) on target_log...
+2026-04-17 01:14:12 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Holt-Winters HOLDOUT -> MAE: 10.1475, RMSE: 11.6488, MAPE: 0.1229 (12.29%)
+2026-04-17 01:14:12 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Training Theta model on target_log...
+2026-04-17 01:14:12 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Theta HOLDOUT -> MAE: 5.8186, RMSE: 6.3147, MAPE: 0.0700 (7.00%)
+2026-04-17 01:14:12 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Training NHITS model (log-target, univariate)...
+2026-04-17 01:14:35 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] NHITS HOLDOUT -> MAE: 21.8127, RMSE: 24.9640, MAPE: 0.2595 (25.95%)
+2026-04-17 01:14:35 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Training NBEATS model (log-target, univariate)...
+2026-04-17 01:14:59 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] NBEATS HOLDOUT -> MAE: 29.8453, RMSE: 34.5438, MAPE: 0.3575 (35.75%)
+2026-04-17 01:14:59 - INFO - model_selection - ℹ️ [Sample Series][Fold 1] Training TFT model (log-target, univariate)...

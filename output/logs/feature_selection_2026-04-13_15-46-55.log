@@ -1,0 +1,18 @@
+2026-04-13 15:46:55 - INFO - feature_selection - ℹ️ Logger initialized → output\logs\feature_selection_2026-04-13_15-46-55.log
+2026-04-13 15:46:55 - INFO - feature_selection - ℹ️ Logs directory does not exist: logs
+2026-04-13 15:46:55 - INFO - feature_selection - ℹ️ ===== Feature Selection Process Started =====
+2026-04-13 15:46:55 - INFO - feature_selection - ℹ️ Args: input=input | data_sheet=Data | config=Config.csv | output_root=output | output=output\output_feature_selection
+2026-04-13 15:47:03 - INFO - feature_selection - ℹ️ Done 1 - Initial data shape including target and all variables: (308, 129)
+2026-04-13 15:47:03 - INFO - feature_selection - ℹ️ Done 2 - Trimmed data shape (trimmed): (116, 129)
+2026-04-13 15:47:03 - INFO - feature_selection - ℹ️ Done 3 - M-frequency continuity & target completeness check passed
+2026-04-13 15:47:03 - INFO - feature_selection - ℹ️ Done 4 - Dropped 0 columns due to missingness > 0.25
+2026-04-13 15:47:03 - INFO - feature_selection - ℹ️ Done 5 - Number of independent variables after interpolation: 128
+2026-04-13 15:47:03 - INFO - feature_selection - ℹ️ Done 6 - Number of variables after correlation filter: 69
+2026-04-13 15:47:03 - INFO - feature_selection - ℹ️ Done 7 - Standard scaling applied before VIF computation
+2026-04-13 15:47:08 - INFO - feature_selection - ℹ️ Done 8 - Number of variables after VIF pruning: 23
+2026-04-13 15:47:08 - INFO - feature_selection - ℹ️ Done 9.1 - Computing MI, ElasticNet, XGB-SHAP rankings
+2026-04-13 15:47:10 - INFO - feature_selection - ℹ️ Done 9.2 - Composite score computed for 23 features
+2026-04-13 15:47:10 - INFO - feature_selection - ℹ️ Done 10 - Selected 13 features by composite threshold (>= 0.250)
+2026-04-13 15:47:10 - INFO - feature_selection - ℹ️ Done 13 - Variable selection complete. Selected 13 feature(s): ['Indep_V94', 'Indep_V1', 'Indep_V108', 'Indep_V57', 'Indep_V35', 'Indep_V2', 'Indep_V40', 'Indep_V101', 'Indep_V119', 'Indep_V96', 'Indep_V99', 'Indep_V39', 'Indep_V26']
+2026-04-13 15:47:10 - INFO - feature_selection - ℹ️ Completed variable selection. Selected 13 feature(s).
+2026-04-13 15:47:10 - INFO - feature_selection - ℹ️ ===== Feature Selection Completed in 14.84 sec (success=True) =====
